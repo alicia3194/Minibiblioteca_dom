@@ -1,0 +1,45 @@
+*{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.container {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content:center;
+}
+
+.book {
+    text-align: center;
+    margin: 2%;
+    padding: 5px;
+    background: #A6CFD5;
+    border-radius: 10px;
+}
+
+
+.image {
+        box-sizing: border-box;
+        width: 150px;
+        margin: 5px;
+        border-radius: 8%;
+        text-align: center;
+}
+
+.country, .language, .pages {
+    padding: 2px;
+}
+
+
+
+
+@media (max-width: 480px) {
+    .conntainer {
+        flex-direction:row;
+        align-items: center;
+    }
+
+    .book {
+        width: 100%;
+    }
+
+    /* You can add more specific styles for smaller screens here */
+}
