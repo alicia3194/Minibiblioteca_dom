@@ -105,5 +105,4 @@ const bookElements = books.map((book) => {
 });
 
 container.append(...bookElements);
-main.appendChild(container);
-document.body.appendChild(main);
+document.querySelector("main").appendChild(container);
